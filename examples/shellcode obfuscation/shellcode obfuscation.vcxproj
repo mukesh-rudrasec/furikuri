@@ -96,7 +96,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>enma_pe.lib;fukutasm.lib;capstone.lib;furikuri.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>lzo2_mdd32.lib;enma_pe.lib;fukutasm.lib;capstone.lib;furikuri.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(OutDir);</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
@@ -114,7 +114,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>enma_pe.lib;fukutasm.lib;capstone.lib;furikuri.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>lzo2_mdd64.lib;enma_pe.lib;fukutasm.lib;capstone.lib;furikuri.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(OutDir);</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
@@ -137,7 +137,7 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>enma_pe.lib;fukutasm.lib;capstone.lib;furikuri.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>lzo2_mt32.lib;enma_pe.lib;fukutasm.lib;capstone.lib;furikuri.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(OutDir);</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
@@ -160,7 +160,7 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>enma_pe.lib;fukutasm.lib;capstone.lib;furikuri.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>lzo2_mt64.lib;enma_pe.lib;fukutasm.lib;capstone.lib;furikuri.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(OutDir);</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>

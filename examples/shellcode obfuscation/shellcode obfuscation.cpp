@@ -138,6 +138,7 @@ unsigned char lzo_depack_64[963] = {
 
 #ifdef _DEBUG 
 #pragma comment(lib,"lzo2_mdd64.lib")
+#pragma comment(linker, "/include:__mySymbol")
 #else
 #pragma comment(lib,"lzo2_mt64.lib")
 #endif
