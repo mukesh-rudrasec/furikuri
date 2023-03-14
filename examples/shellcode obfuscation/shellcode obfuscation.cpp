@@ -138,7 +138,6 @@ unsigned char lzo_depack_64[963] = {
 
 #ifdef _DEBUG 
 #pragma comment(lib,"lzo2_mdd64.lib")
-#pragma comment(linker, "/include:__mySymbol")
 #else
 #pragma comment(lib,"lzo2_mt64.lib")
 #endif
@@ -170,7 +169,7 @@ int main() {
         void* work_mem = new uint8_t[LZO1Z_999_MEM_COMPRESS];
 
 
-        if (lzo1z_999_compress((const unsigned char*)test_message, totaly_data_size, 
+        if (_lzo1z_999_compress((const unsigned char*)test_message, totaly_data_size, 
             compressed_buf, &packed_size, work_mem) != LZO_E_OK) {
 
             delete[] work_mem;
